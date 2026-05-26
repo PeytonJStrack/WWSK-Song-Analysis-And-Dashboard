@@ -10,7 +10,7 @@ radio_data <- fromJSON(url)
 #Filter the Data and Alter the Format
 radio_data$results %>%
   select(Artist = current_artist_name, Song = current_title, Time = streamed_time) %>%
-  mutate(Time = ymd_hms(Time), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(Time), Time = format(Time,"%I:%M %p")) -> songs
+  mutate(Time = ymd_hms(Time, tz = "UTC"), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(Time), Time = format(Time,"%I:%M %p")) -> songs
 
 #Ensure the Shark Data exists in the Data file
 if(file.exists("data/Shark_Data.csv")){
