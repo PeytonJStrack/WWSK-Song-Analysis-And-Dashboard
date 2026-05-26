@@ -1,5 +1,5 @@
 Artist,Song,Time,Date
-Candlebox,Far Behind,07:58 PM,2026-05-25
+Candlebox,Far Behind,19:58:00,2026-05-25
 Weezer,Buddy Holly,12:49:00,2026-05-25
 Metallica,For Whom The Bell Tolls,12:51:00,2026-05-25
 Three Days Grace,Never Too Late,12:56:00,2026-05-25
@@ -83,20 +83,6 @@ Shinedown,Safe And Sound,19:38:00,2026-05-25
 Nirvana,Dumb,19:41:00,2026-05-25
 Foo Fighters,My Hero,19:49:00,2026-05-25
 Metallica,I Disappear,19:54:00,2026-05-25
-Candlebox,Far Behind,19:58:00,2026-05-25
-Fozzy,I Know Evil,12:01 AM,2026-05-26
-Judas Priest,Living After Midnight,12:05 AM,2026-05-26
-Lenny Kravitz,Are You Gonna Go My Way,12:08 AM,2026-05-26
-Kalamity Kills,These Days Are Evil,12:11 AM,2026-05-26
-Magi,Highway Blues,12:15 AM,2026-05-26
-Foo Fighters,Everlong,12:20 AM,2026-05-26
-The Warning,Kerosene,12:24 AM,2026-05-26
-Bilmuri,Always Let You Down (feat A Day To Remember),12:28 AM,2026-05-26
-Des Rocs,When The Love Is Gone,12:31 AM,2026-05-26
-Sevendust,Unbreakable,12:34 AM,2026-05-26
-Disturbed,The Sound Of Silence,12:39 AM,2026-05-26
-Everlast,What It's Like,12:44 AM,2026-05-26
-The Nocturnal Affair,Oxygen,12:49 AM,2026-05-26
 Ice Nine Kills,Twisting The Knife (feat Mckenna Grace),12:53 AM,2026-05-26
 Architects,Broken Mirror,12:56 AM,2026-05-26
 President,Destroy Me,12:59 AM,2026-05-26
@@ -140,49 +126,119 @@ Social Distortion,Born To Kill,03:24 AM,2026-05-26
 Dayseeker,Crawl Back To My Coffin,03:28 AM,2026-05-26
 Black Keys,Howlin' For You,03:32 AM,2026-05-26
 Bush,Glycerine,03:38 AM,2026-05-26
-Pearl Jam,Better Man,08:03 PM,2026-05-26
-Three Days Grace,I Hate Everything About You,08:07 PM,2026-05-26
-Metallica,One (s&m2),08:11 PM,2026-05-26
-Weezer,Undone - The Sweater Song,08:26 PM,2026-05-26
-311,Amber,08:30 PM,2026-05-26
-Metallica,Until It Sleeps,08:33 PM,2026-05-26
-Van Halen,Runnin' With The Devil,08:38 PM,2026-05-26
-Five Finger Death Punch,Eye Of The Storm,08:41 PM,2026-05-26
-Radiohead,Creep,08:45 PM,2026-05-26
-Metallica,Enter Sandman,08:49 PM,2026-05-26
-Jon Bon Jovi,Blaze Of Glory,08:54 PM,2026-05-26
-Chevelle,Send The Pain Below,09:00 PM,2026-05-26
-Red Hot Chili Peppers,Snow (hey Oh),09:04 PM,2026-05-26
-Fuel,Shimmer,09:08 PM,2026-05-26
-Ataris,The Boys Of Summer,09:30 PM,2026-05-26
-Autumn Kings,"Gone, Gone, Gone",09:35 PM,2026-05-26
-Metallica,Turn The Page,09:38 PM,2026-05-26
-Everlast,Stones,09:43 PM,2026-05-26
-Stone Temple Pilots,Big Empty,09:46 PM,2026-05-26
-Ramones,Blitzkrieg Bop,09:51 PM,2026-05-26
-Metallica,Fight Fire With Fire,09:54 PM,2026-05-26
-Poppy,Time Will Tell,09:58 PM,2026-05-26
-Green Day,Boulevard Of Broken Dreams,10:02 PM,2026-05-26
-Metallica,Ride The Lightning,10:05 PM,2026-05-26
-Three Days Grace,Don't Wanna Go Home Tonight,10:12 PM,2026-05-26
-Linkin Park,New Divide,10:15 PM,2026-05-26
-Ac/dc,Back In Black,10:20 PM,2026-05-26
-Metallica,Screaming Suicide,10:24 PM,2026-05-26
-Jimmy Eat World,The Middle,10:30 PM,2026-05-26
-Nine Inch Nails,Hurt,10:32 PM,2026-05-26
-Guns 'n Roses,Paradise City,10:37 PM,2026-05-26
-Sublime,Santeria,10:51 PM,2026-05-26
-Metallica,Harvester Of Sorrow,10:54 PM,2026-05-26
-White Zombie,More Human Than Human,11:00 PM,2026-05-26
-Staind,It's Been Awhile,11:04 PM,2026-05-26
-Metallica,The Frayed Ends Of Sanity,11:09 PM,2026-05-26
-Bush,Comedown,11:23 PM,2026-05-26
-Red Hot Chili Peppers,By The Way,11:27 PM,2026-05-26
-Metallica,Sad But True (live At Yankee Stadium 2011),11:31 PM,2026-05-26
-Papa Roach,Last Resort,11:37 PM,2026-05-26
-Breaking Benjamin,Something Wicked,11:40 PM,2026-05-26
-Godsmack,Voodoo,11:51 PM,2026-05-26
-Metallica,Whiskey In The Jar,11:55 PM,2026-05-26
+Sublime,Until The Sun Explodes,03:42 AM,2026-05-26
+Black Stone Cherry,Deep,03:45 AM,2026-05-26
+Five Finger Death Punch,Eye Of The Storm,03:48 AM,2026-05-26
+Ice Nine Kills,Twisting The Knife (feat Mckenna Grace),03:52 AM,2026-05-26
+Kiss,Detroit Rock City,03:54 AM,2026-05-26
+Toadies,Possum Kingdom,03:58 AM,2026-05-26
+Dead Sugar,Inland (the Prey),04:03 AM,2026-05-26
+Sleep Theory,Words Are Worthless,04:06 AM,2026-05-26
+Nirvana,Lithium,04:14 AM,2026-05-26
+Papa Roach,Wake Up Calling,04:18 AM,2026-05-26
+Breaking Benjamin,Something Wicked,04:22 AM,2026-05-26
+Godsmack,When Legends Rise (live At Mohegan Sun),04:25 AM,2026-05-26
+Nonpoint,Is It,04:30 AM,2026-05-26
+Linkin Park,The Emptiness Machine,04:33 AM,2026-05-26
+Red Hot Chili Peppers,Under The Bridge,04:39 AM,2026-05-26
+Atreyu,All For You,04:43 AM,2026-05-26
+The Warning,Kerosene,04:47 AM,2026-05-26
+Evanescence,Who Will You Follow,04:50 AM,2026-05-26
+Pretty Reckless,When I Wake Up,04:54 AM,2026-05-26
+Twisted Sister,I Wanna Rock,04:58 AM,2026-05-26
+Butthole Surfers,Pepper,05:01 AM,2026-05-26
+Aerosmith,Dude Looks Like A Lady,05:05 AM,2026-05-26
+Ryan Perdz,Sour,05:10 AM,2026-05-26
+Blink 182,All The Small Things,05:21 AM,2026-05-26
+Shinedown,Sound Of Madness,05:24 AM,2026-05-26
+Neighbourhood,Sweater Weather,05:28 AM,2026-05-26
+Foo Fighters,Monkey Wrench,05:32 AM,2026-05-26
+Black Crowes,Hard To Handle,05:35 AM,2026-05-26
+System Of A Down,Chop Suey,05:39 AM,2026-05-26
+Lit,My Own Worst Enemy,05:47 AM,2026-05-26
+Tim Montana,Break Me Down,05:50 AM,2026-05-26
+Motley Crue,"Girls, Girls, Girls",05:53 AM,2026-05-26
+Bush,Everything Zen,05:57 AM,2026-05-26
+Nirvana,Smells Like Teen Spirit,09:01 AM,2026-05-26
+Beastie Boys,So Whatcha Want,09:06 AM,2026-05-26
+Offspring,Self Esteem,09:11 AM,2026-05-26
+Stone Temple Pilots,Dead Bloated,09:15 AM,2026-05-26
+Blur,Song 2,09:20 AM,2026-05-26
+Smashing Pumpkins,Tonight Tonight,09:22 AM,2026-05-26
+Mad Season,River Of Deceit,09:27 AM,2026-05-26
+Collective Soul,December,09:32 AM,2026-05-26
+Foo Fighters,My Hero,09:36 AM,2026-05-26
+House Of Pain,Jump Around,09:40 AM,2026-05-26
+Soundgarden,Rusty Cage,09:44 AM,2026-05-26
+Marcy Playground,Sex And Candy,09:49 AM,2026-05-26
+Red Hot Chili Peppers,Suck My Kiss,09:52 AM,2026-05-26
+Fuel,Hemorrhage In My Hands,10:01 AM,2026-05-26
+Danzig,Mother,10:05 AM,2026-05-26
+Three Days Grace,Don't Wanna Go Home Tonight,10:09 AM,2026-05-26
+Puddle Of Mudd,She Hates Me,10:17 AM,2026-05-26
+Sublime,What I Got,10:20 AM,2026-05-26
+Twenty One Pilots,Stressed Out,10:23 AM,2026-05-26
+Cage The Elephant,Ain't No Rest For The Wicked,10:26 AM,2026-05-26
+Jane's Addiction,Been Caught Stealing,10:29 AM,2026-05-26
+Guns N' Roses,November Rain,10:33 AM,2026-05-26
+Offspring,"You're Gonna Go Far, Kid",10:42 AM,2026-05-26
+Harvey Danger,Flagpole Sitta,10:51 AM,2026-05-26
+Fozzy,I Know Evil,00:01:00,2026-05-26
+Judas Priest,Living After Midnight,00:05:00,2026-05-26
+Lenny Kravitz,Are You Gonna Go My Way,00:08:00,2026-05-26
+Kalamity Kills,These Days Are Evil,00:11:00,2026-05-26
+Magi,Highway Blues,00:15:00,2026-05-26
+Foo Fighters,Everlong,00:20:00,2026-05-26
+The Warning,Kerosene,00:24:00,2026-05-26
+Bilmuri,Always Let You Down (feat A Day To Remember),00:28:00,2026-05-26
+Des Rocs,When The Love Is Gone,00:31:00,2026-05-26
+Sevendust,Unbreakable,00:34:00,2026-05-26
+Disturbed,The Sound Of Silence,00:39:00,2026-05-26
+Everlast,What It's Like,00:44:00,2026-05-26
+The Nocturnal Affair,Oxygen,00:49:00,2026-05-26
+Ice Nine Kills,Twisting The Knife (feat Mckenna Grace),00:53:00,2026-05-26
+Architects,Broken Mirror,00:56:00,2026-05-26
+President,Destroy Me,00:59:00,2026-05-26
+Cracker,Low,01:02:00,2026-05-26
+Stone Horses,Make A Living,01:06:00,2026-05-26
+James And The Cold Gun,Guessing Games,01:09:00,2026-05-26
+Collective Soul,Shine,01:14:00,2026-05-26
+Tim Montana,Break Me Down,01:18:00,2026-05-26
+The Black Moods,Time Bomb,01:21:00,2026-05-26
+Sleep Theory,Words Are Worthless,01:25:00,2026-05-26
+Lylvc,Starless (feat. Bobby Amaru),01:28:00,2026-05-26
+Twenty One Pilots,Heathens,01:31:00,2026-05-26
+Smashing Pumpkins,Today,01:36:00,2026-05-26
+Beartooth,Free,01:40:00,2026-05-26
+Dogstar,All In Now,01:43:00,2026-05-26
+Black Crowes,It's Like That,01:45:00,2026-05-26
+Evanescence,Who Will You Follow,01:49:00,2026-05-26
+Rush,Limelight,01:53:00,2026-05-26
+Metallica,Sad But True,01:58:00,2026-05-26
+Mgk,Fix Ur Face (feat Fred Durst),02:03:00,2026-05-26
+Black Veil Brides,Vindicate,02:06:00,2026-05-26
+Nirvana,Heart-Shaped Box,02:12:00,2026-05-26
+Three Days Grace,Don't Wanna Go Home Tonight,02:16:00,2026-05-26
+Billy Morrison & Sully Ft_nuno Bettencourt,Becoming,02:20:00,2026-05-26
+Everlast,Stones,02:24:00,2026-05-26
+Backhand Blue,Grow A Pear,02:28:00,2026-05-26
+Shinedown,A Symptom Of Being Human,02:31:00,2026-05-26
+Pearl Jam,Even Flow,02:37:00,2026-05-26
+Autumn Kings,"Gone, Gone, Gone",02:42:00,2026-05-26
+Foo Fighters,Your Favorite Toy,02:45:00,2026-05-26
+Fozzy,I Know Evil,02:48:00,2026-05-26
+Black Label Society,Name In Blood,02:52:00,2026-05-26
+Ac/dc,Moneytalks,02:56:00,2026-05-26
+Filter,"Hey Man, Nice Shot",03:00:00,2026-05-26
+Ryan Perdz,Sour,03:05:00,2026-05-26
+Eva Under Fire,Villainous (ft. Maria Brink),03:10:00,2026-05-26
+Green Day,Time Of Your Life Good Riddance,03:14:00,2026-05-26
+Poppy,Time Will Tell,03:17:00,2026-05-26
+Sevendust,Unbreakable,03:20:00,2026-05-26
+Social Distortion,Born To Kill,03:24:00,2026-05-26
+Dayseeker,Crawl Back To My Coffin,03:28:00,2026-05-26
+Black Keys,Howlin' For You,03:32:00,2026-05-26
+Bush,Glycerine,03:38:00,2026-05-26
 Pearl Jam,Better Man,20:03:00,2026-05-26
 Three Days Grace,I Hate Everything About You,20:07:00,2026-05-26
 Metallica,One (s&m2),20:11:00,2026-05-26
@@ -199,3 +255,30 @@ Red Hot Chili Peppers,Snow (hey Oh),21:04:00,2026-05-26
 Fuel,Shimmer,21:08:00,2026-05-26
 Ataris,The Boys Of Summer,21:30:00,2026-05-26
 Autumn Kings,"Gone, Gone, Gone",21:35:00,2026-05-26
+Metallica,Turn The Page,21:38:00,2026-05-26
+Everlast,Stones,21:43:00,2026-05-26
+Stone Temple Pilots,Big Empty,21:46:00,2026-05-26
+Ramones,Blitzkrieg Bop,21:51:00,2026-05-26
+Metallica,Fight Fire With Fire,21:54:00,2026-05-26
+Poppy,Time Will Tell,21:58:00,2026-05-26
+Green Day,Boulevard Of Broken Dreams,22:02:00,2026-05-26
+Metallica,Ride The Lightning,22:05:00,2026-05-26
+Three Days Grace,Don't Wanna Go Home Tonight,22:12:00,2026-05-26
+Linkin Park,New Divide,22:15:00,2026-05-26
+Ac/dc,Back In Black,22:20:00,2026-05-26
+Metallica,Screaming Suicide,22:24:00,2026-05-26
+Jimmy Eat World,The Middle,22:30:00,2026-05-26
+Nine Inch Nails,Hurt,22:32:00,2026-05-26
+Guns 'n Roses,Paradise City,22:37:00,2026-05-26
+Sublime,Santeria,22:51:00,2026-05-26
+Metallica,Harvester Of Sorrow,22:54:00,2026-05-26
+White Zombie,More Human Than Human,23:00:00,2026-05-26
+Staind,It's Been Awhile,23:04:00,2026-05-26
+Metallica,The Frayed Ends Of Sanity,23:09:00,2026-05-26
+Bush,Comedown,23:23:00,2026-05-26
+Red Hot Chili Peppers,By The Way,23:27:00,2026-05-26
+Metallica,Sad But True (live At Yankee Stadium 2011),23:31:00,2026-05-26
+Papa Roach,Last Resort,23:37:00,2026-05-26
+Breaking Benjamin,Something Wicked,23:40:00,2026-05-26
+Godsmack,Voodoo,23:51:00,2026-05-26
+Metallica,Whiskey In The Jar,23:55:00,2026-05-26
