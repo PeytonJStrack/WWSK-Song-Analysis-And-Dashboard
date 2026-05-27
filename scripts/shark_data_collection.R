@@ -13,11 +13,9 @@ radio_data$results %>%
   mutate(Time = ymd_hms(Time, tz = "UTC"), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(Time), Time = format(Time,"%I:%M %p")) -> songs
 
 #Ensure the Shark Data exists in the Data file
-if(file.exists("data/Shark_Data.csv")){
-  
-  read_csv("data/Shark_Data.csv", show_col_types = FALSE) %>%
-    mutate(Time = as.character(Time), Date = as.Date(Date)) -> old_songs
-  
+if(file.exists("data/Shark_Data.csv"))
+{
+  old_songs <- read_csv("data/Shark_Data.csv", show_col_types = FALSE, col_types = cols(Artist = col_character(), Song = col_character(), Time = col_character(), Date = col_date()))
 } else 
 {
   old_songs <- tibble()
