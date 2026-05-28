@@ -42,9 +42,9 @@ bind_rows(shark_songs, plr_songs) %>%
   mutate(Time = format(Time,"%I:%M %p")) -> songs
 
 #Ensure the Shark Data exists in the Data file
-if(file.exists("Shark_Data.csv")){
+if(file.exists("data/Shark_Data.csv")){
   
-  read_csv("Shark_Data.csv", show_col_types = FALSE) %>%
+  read_csv("data/Shark_Data.csv", show_col_types = FALSE) %>%
     mutate(Time = as.character(Time), Date = as.Date(Date)) -> old_songs
   
 } else 
@@ -58,5 +58,5 @@ bind_rows(old_songs, songs) %>%
   arrange(Date, parse_date_time(Time,"%I:%M %p")) -> updated_songs
 
 # Save updated data
-write_csv(updated_songs, "Shark_Data.csv")
+write_csv(updated_songs, "data/Shark_Data.csv")
 
