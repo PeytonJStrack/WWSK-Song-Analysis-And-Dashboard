@@ -55,7 +55,7 @@ if(file.exists("data/Shark_Data.csv")){
 # Combine old and new data and remove exact duplicates
 bind_rows(old_songs, songs) %>%
   distinct(Song, Artist, Time, Date, .keep_all = TRUE) %>%
-  arrange(Date, parse_date_time(Time,"%I:%M %p")) -> updated_songs
+  arrange(Date, parse_date_time(Time, orders = "I:M p")) -> updated_songs
 
 # Save updated data
 write_csv(updated_songs, "data/Shark_Data.csv")
