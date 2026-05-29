@@ -28,11 +28,10 @@ bind_rows(shark_songs, plr_songs) %>%
   mutate(Time = format(Time,"%I:%M %p")) -> songs
 
 #Ensure the Shark Data exists in the Data file
-if(file.exists("data/Shark_Data.csv")){
-  
+if(file.exists("data/Shark_Data.csv"))
+{
   read_csv("data/Shark_Data.csv", show_col_types = FALSE) %>%
-    mutate(Time = as.character(Time), Date = as.Date(Date)) -> old_songs
-  
+  mutate(Time = format(parse_date_time(Time, orders = c("I:M p", "H:M:S")), "%I:%M %p"), Date = as.Date(Date)) -> old_songs
 } else 
 {
   old_songs <- tibble()
