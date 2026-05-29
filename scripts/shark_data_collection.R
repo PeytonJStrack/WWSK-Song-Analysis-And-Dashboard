@@ -7,35 +7,21 @@ url <- "https://us.production.audio.one/api/v1.3/app/20008/playlist/6/live-strea
 plr_url <- "https://us.production.audio.one/api/v1.3/app/20009/playlist/12/live-stream-history/?page_size=100"
 
 #Access the JSON Data
-radio_data <- fromJSON(url)
+shark_data <- fromJSON(url)
 
 plr_data <- fromJSON(plr_url)
 
+artist_fixes <- c("Blink 182" = "Blink-182", "Guns n' Roses" = "Guns N' Roses", "Ac/Dc" = "AC/DC")
+
 #Filter the Data and Alter the Format
-radio_data$results %>%
-  select(
-    Artist = current_artist_name,
-    Song = current_title,
-    Time = streamed_time
-  ) %>%
-  mutate(
-    Time = ymd_hms(Time, tz = "UTC"),
-    Time = with_tz(Time, tzone = "America/New_York"),
-    Date = as.Date(Time)
-  ) %>%
+shark_data$results %>%
+  select(Artist = current_artist_name, Song = current_title, Time = streamed_time) %>%
+  mutate(Artist = recode(Artist, !!!artist_fixes), Time = ymd_hms(Time, tz = "UTC"), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(Time)) %>%
   filter(!(hour(Time) >= 6 & hour(Time) < 9)) -> shark_songs
 
 plr_data$results %>%
-  select(
-    Artist = current_artist_name,
-    Song = current_title,
-    Time = streamed_time
-  ) %>%
-  mutate(
-    Time = ymd_hms(Time, tz = "UTC"),
-    Time = with_tz(Time, tzone = "America/New_York"),
-    Date = as.Date(Time)
-  ) %>%
+  select(Artist = current_artist_name, Song = current_title, Time = streamed_time) %>%
+  mutate(Artist = recode(Artist, !!!artist_fixes), Time = ymd_hms(Time, tz = "UTC"), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(Time)) %>%
   filter(hour(Time) >= 6 & hour(Time) < 9) -> plr_songs
 
 bind_rows(shark_songs, plr_songs) %>%
