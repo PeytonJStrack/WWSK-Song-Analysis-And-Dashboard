@@ -11,7 +11,7 @@ shark_data <- fromJSON(url)
 
 plr_data <- fromJSON(plr_url)
 
-artist_fixes <- c("Blink 182" = "Blink-182", "Guns n' Roses" = "Guns N' Roses", "Ac/Dc" = "AC/DC")
+artist_fixes <- c("Blink 182" = "Blink-182", "Guns n' Roses" = "Guns N' Roses", "Ac/dc" = "AC/DC")
 
 #Filter the Data and Alter the Format
 shark_data$results %>%
