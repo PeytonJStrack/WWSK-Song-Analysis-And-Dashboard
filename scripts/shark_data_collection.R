@@ -12,11 +12,12 @@ shark_data <- fromJSON(url)
 plr_data <- fromJSON(plr_url)
 
 artist_fixes <- c("Blink 182" = "Blink-182", "Guns 'n Roses" = "Guns N' Roses", "Ac/dc" = "AC/DC", "P.o.d." = "P.O.D.", "R.e.m." = "R.E.M.", "A.f.i." = "A.F.I.")
+song_fixes <- c("Eruption/you Really Got Me" = "Eruption + You Really Got Me")
 
 #Filter the Data and Alter the Format
 shark_data$results %>%
   select(Artist = current_artist_name, Song = current_title, Time = streamed_time) %>%
-  mutate(Artist = recode(Artist, !!!artist_fixes), Time = ymd_hms(Time, tz = "UTC"), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(format(Time, tz = "America/New_York", "%Y-%m-%d"))) %>%
+  mutate(Artist = recode(Artist, !!!artist_fixes), Song = recode(Song, !!!song_fixes), Time = ymd_hms(Time, tz = "UTC"), Time = with_tz(Time, tzone = "America/New_York"), Date = as.Date(format(Time, tz = "America/New_York", "%Y-%m-%d"))) %>%
   filter(!(hour(Time) >= 6 & hour(Time) < 9 & wday(Time) %in% 2:6)) -> shark_songs
 
 plr_data$results %>%
