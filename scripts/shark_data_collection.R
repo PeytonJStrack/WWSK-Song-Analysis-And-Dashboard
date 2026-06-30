@@ -12,7 +12,7 @@ shark_data <- fromJSON(url)
 plr_data <- fromJSON(plr_url)
 
 artist_fixes <- c("Blink 182" = "Blink-182", "Guns 'n Roses" = "Guns N' Roses", "Ac/dc" = "AC/DC", "P.o.d." = "P.O.D.", "R.e.m." = "R.E.M.", "A.f.i." = "A.F.I.", "Afi" = "A.F.I.", "The Smashing Pumpkins" = "Smashing Pumpkins", "Guns N Roses" = "Guns N' Roses", "Slash / Myles Kennedy" = "Myles Kennedy", "Jay-Z/linkin Park" = "Linkin Park", "Halestorm W/slash" = "Halestorm", "Lita Ford W/ozzy Osbourne" = "Lita Ford", "Primus With Ozzy" = "Primus", "The Offspring" = "Offspring", "Stone Sour W/lzzy Hale" = "Stone Sour")
-song_fixes <- c("Eruption/you Really Got Me" = "Eruption + You Really Got Me", "(you Gotta) Fight For Your Right To Party" = "(You Gotta) Fight For Your Right To Party", "White Wedding (part 1)" = "White Wedding", "Dr. Feel Good" = "Dr. Feelgood", "The Unforgiven Ii" = "The Unforgiven II")
+song_fixes <- c("Eruption/you Really Got Me" = "Eruption + You Really Got Me", "(you Gotta) Fight For Your Right To Party" = "(You Gotta) Fight For Your Right To Party", "White Wedding (part 1)" = "White Wedding", "Dr. Feel Good" = "Dr. Feelgood", "The Unforgiven Ii" = "The Unforgiven II", "Iron Man (liver From Rock Hof)" = "Iron Man")
 
 #Filter the Data and Alter the Format
 shark_data$results %>%
